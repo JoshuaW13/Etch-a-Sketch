@@ -2,7 +2,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background: grey;
+    background: #B0C4DE ;
     justify-content: center;
     align-items: center;
     min-height: 700px;
@@ -28,4 +28,21 @@ body{
     border: solid #eae8e4;
     border-width: 1px;
 
+}
+
+.colorContainer{
+    display: flex;
+    max-width: 50vw;
+    align-items: center;
+
+    margin-top: 30px;
+    padding: 20px;
+}
+.color{
+    margin: 1px;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
