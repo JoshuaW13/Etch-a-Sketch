@@ -1,6 +1,7 @@
 let mouseHeld = false;
 document.body.onmousedown = () => (mouseHeld = true);
 document.body.onmouseup= () => (mouseHeld = false);
+document.body.ondrag= () => (mouseHeld = false)
 
 function setGrid(gridDimensions){
     grid.innerHTML = "";
