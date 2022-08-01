@@ -50,4 +50,6 @@ img{
 button{
     background-color: lightslategray;
     font-weight: bold;
+    width: 50px;
+    height: auto;
 }

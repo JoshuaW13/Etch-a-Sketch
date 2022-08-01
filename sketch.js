@@ -72,6 +72,10 @@ function changeBrush(e){
     else if(this.classList.contains('eraser')){color = 12;}   
 }
 
+function clearGrid(){
+    setGrid(gridSize);
+}
+
 
 
 
@@ -89,6 +93,8 @@ let grid = document.getElementById('grid');
 setGrid(gridSize);
 let colors = document.querySelectorAll('.color');
 colors.forEach(color => color.addEventListener('click', changeBrush))
+let clear = document.querySelector('.clear');
+clear.addEventListener('click', clearGrid)
 
 /* Color key:
 black: 1
