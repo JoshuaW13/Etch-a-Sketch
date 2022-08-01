@@ -5,7 +5,7 @@ body{
     background: #B0C4DE ;
     justify-content: center;
     align-items: center;
-    min-height: 700px;
+    height: 100vh;
 }
 
 .gridSizes{
@@ -32,7 +32,7 @@ body{
 
 .colorContainer{
     display: flex;
-    max-width: 50vw;
+    max-width: 45vw;
     align-items: center;
 
     margin-top: 30px;
