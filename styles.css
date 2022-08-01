@@ -6,6 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Courier New', Courier, monospace;;
 }
 
 .gridSizes{
@@ -45,4 +46,8 @@ body{
 img{
     width: 100%;
     height: auto;
+}
+button{
+    background-color: lightslategray;
+    font-weight: bold;
 }
