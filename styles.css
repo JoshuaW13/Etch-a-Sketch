@@ -1,28 +1,40 @@
 
 body{
-    display: flex;
-    flex-direction: column;
     background: #B0C4DE ;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;;
 }
 
+h1{
+    text-align: center;
+    margin-top: 0px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .gridSizes{
     margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.gridContainer{
+    
 }
 
 .grid{
+    margin: 0 auto;
     display: grid;
-    
-    
     grid-auto-rows:  1fr;
     background-color: white;
-    width: 150vw;
-    height: 150vw;
-    max-width: 500px;
-    max-height:  500px;
+    width: 100vw;
+    height: 100vw;
+    max-width: 60vh;
+    max-height: 60vh;
 }
 
 .gridItem{
@@ -32,15 +44,17 @@ body{
 }
 
 .colorContainer{
+    margin: 0 auto;
     display: flex;
-    max-width: 45vw;
+    width: fit-content;
     align-items: center;
-
-    margin-top: 30px;
+    margin-top: 0;
     padding: 20px;
 }
 .color{
     margin: 1px;
+    min-width: 10px;
+    max-width: 30px;
 }
 
 img{
@@ -52,4 +66,5 @@ button{
     font-weight: bold;
     width: 50px;
     height: auto;
+    margin: 5px;
 }
