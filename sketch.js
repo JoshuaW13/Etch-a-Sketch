@@ -52,9 +52,9 @@ function changeColor(e){
 }
 
 function changeGridSize(e){
-    if(this.classList.contains('8x8')){setGrid(8);}
-    else if(this.classList.contains('16x16')){setGrid(16);}
-    else if(this.classList.contains('32x32')){setGrid(32);}
+    if(this.classList.contains('8x8')){setGrid(gridSize = 8);}
+    else if(this.classList.contains('16x16')){setGrid(gridSize = 16);}
+    else if(this.classList.contains('32x32')){setGrid(gridSize = 32);}
 }
 
 function changeBrush(e){

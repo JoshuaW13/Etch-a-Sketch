@@ -23,7 +23,7 @@ h3{
 }
 
 .gridContainer{
-    
+    height: 60%;
 }
 
 .grid{
@@ -53,7 +53,7 @@ h3{
 }
 .color{
     margin: 1px;
-    min-width: 10px;
+    min-width: 15px;
     max-width: 30px;
 }
 
