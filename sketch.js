@@ -74,7 +74,7 @@ function changeBrush(e){
     else if(this.classList.contains('grey')){color = 11;}
     else if(this.classList.contains('eraser')){color = 12;} 
     this.style.border = 'solid #0096FF';
-    this.style.borderWidth = '2px'  ;
+    this.style.borderWidth = '5px'  ;
 }
 
 function clearGrid(){
